@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://dsd4pr5a7bb1u"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(-677.271, 610.199)
+
+[node name="Play" type="Button" parent="."]
+layout_mode = 0
+offset_left = -19.4398
+offset_top = 0.353983
+offset_right = -11.4398
+offset_bottom = 8.35398
+scale = Vector2(-0.894616, 0.965485)
+text = "Play game"
+
+[node name="Quit" type="Button" parent="."]
+layout_mode = 0
+offset_left = -26.7101
+offset_top = 33.0908
+offset_right = 65.2899
+offset_bottom = 64.0908
+scale = Vector2(-0.601575, 1.02141)
+text = "Quit Game"
